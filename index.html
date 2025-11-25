@@ -28,6 +28,16 @@
         <div class="row" id="car-gallery"></div>
     </div>
 
+    <div class="container m-5">
+        <div class="row">
+            <h1>World Rally Tracks</h1>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row" id="track-gallery"></div>
+    </div>
+
     <script src="data.js"></script>
 
     <script>
@@ -40,10 +50,25 @@
                     <img src="` + rallyCars[i].img + `" class="card-img-top">
                     <div class="card-body">
                         <h5 class="card-title">` + rallyCars[i].model + `</h5>
+                    </div>
                 </div>
             </div>
         `;
         }
+
+        var trackGallery = document.getElementById("track-gallery")
+
+        for (var j = 0; j < rallyTracks.length; j++) {
+            trackGallery.innerHTML += `
+            <div class="col-12 col-lg-6">
+                <div class="track-container">
+                    <img src="` +rallyTracks[j].img + `" class="track-img">
+                </div>
+                <h4>` + rallyTracks[j].description + `</h4>
+            </div>
+            `;
+        }
+
     </script>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"

@@ -31,4 +31,31 @@ var rallyCars = [
         model: "Subaru Impreza 2006",
         img: "images/impreza2006.jpg"
     },
-];   
+];
+
+var rallyTracks = [
+    {
+        description: "Historic long-distance stages across mixed terrain. Kingdom",
+        img: "images/track1.jpg"
+    },
+    {
+        description: "Fast, wet, and foggy forest stages. Kingdom",
+        img: "images/track2.jpg"
+    },
+    {
+        description: "High-speed gravel roads with massive jumps. Kingdom",
+        img: "images/track3.jpg"
+    },
+    {
+        description: "Technical tarmac stages through rolling countryside.",
+        img: "images/track4.jpg"
+    },
+    {
+        description: "Icy mountain roads with unpredictable conditions.",
+        img: "images/track5.jpg"
+    },
+    {
+        description: "Narrow tarmac stages with sharp bends and coastal views.",
+        img: "images/track6.jpg"
+    },
+];
