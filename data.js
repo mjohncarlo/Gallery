@@ -20,15 +20,15 @@ var rallyCars = [
         img: "images/evo9.jpg"
     },
     {
-        model: "Subaru Impreza 555",
+        model: "Subaru WRX 555",
         img: "images/impreza555.jpg"
     },
     {
-        model: "Subaru Impreza 2003",
+        model: "Subaru WRX 2003",
         img: "images/impreza2003.jpg"
     },
     {
-        model: "Subaru Impreza 2006",
+        model: "Subaru WRX 2006",
         img: "images/impreza2006.jpg"
     },
 ];
