@@ -35,15 +35,15 @@ var rallyCars = [
 
 var rallyTracks = [
     {
-        description: "Historic long-distance stages across mixed terrain. Kingdom",
+        description: "Historic long-distance stages across mixed terrain.",
         img: "images/track1.jpg"
     },
     {
-        description: "Fast, wet, and foggy forest stages. Kingdom",
+        description: "Fast, wet, and foggy forest stages.",
         img: "images/track2.jpg"
     },
     {
-        description: "High-speed gravel roads with massive jumps. Kingdom",
+        description: "High-speed gravel roads with massive jumps.",
         img: "images/track3.jpg"
     },
     {
