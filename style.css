@@ -10,21 +10,23 @@
 }
 
 .card-title {
-    font-size: clamp(1rem, 2vw, 1.25rem);
+    font-size: clamp(0.9rem, 2vw, 1.25rem);
     font-weight: 600;
     text-align: center;
+    color: white;
 }
 
 .track-description {
     font-size: clamp(0.9rem, 1.8vw, 1.2rem);
     text-align: center;
     margin-top: 1rem;
+    color: white;
+    font-weight: 600;
 }
 
 footer {
-    background-color: rgb(12, 0, 40);
+    background-color: black;
     font-size: 0.9rem;
-    border-top: 1px solid black;
     color: white;
 }
 
@@ -41,4 +43,34 @@ p,
 .track-description,
 .card-title {
     font-family: 'Lato', sans-serif;
+}
+
+.card-body {
+    background-color: rgb(12, 0, 40);
+}
+
+.glass {
+    background: rgba(255, 0, 0, 0.6);
+    backdrop-filter: blur(15px); 
+    -webkit-backdrop-filter: blur(15px); 
+    border-radius: 15px;
+}
+
+.gallery {
+    background-image: url("images/flag.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.title {
+    font-size: clamp(1.5rem, 4vw, 3.5rem);
+    color: red;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius: 5px;
+    border: solid 2px red;
 }

@@ -21,27 +21,28 @@
         </div>
     </section>
 
-
-    <div class="container mt-5">
-        <div class="row">
-            <h1 class="text-center">Legends of the Dirt Track</h1>
+    <section class="gallery">
+        <div class="container mt-5">
+            <div class="row">
+                <h1 class="text-center title">Legends of the Dirt Track</h1>
+            </div>
         </div>
-    </div>
 
-    <div class="container">
-        <div class="row justify-content-center" id="car-gallery"></div>
-    </div>
-
-    <div class="container mt-5">
-        <div class="row">
-            <h1 class="text-center">World Rally Tracks</h1>
+        <div class="container">
+            <div class="row justify-content-center" id="car-gallery"></div>
         </div>
-    </div>
 
-    <div class="container mt-3">
-        <div class="row justify-content-center" id="track-gallery"></div>
-    </div>
+        <div class="container mt-5">
+            <div class="row">
+                <h1 class="text-center title">World Rally Tracks</h1>
+            </div>
+        </div>
 
+        <div class="container mt-3">
+            <div class="row justify-content-center" id="track-gallery"></div>
+        </div>
+    </section>
+    
     <footer class="text-center px-3 px-sm-4 px-md-5 py-3">
         <p class="mb-0">© 2025 WRC Gallery | Designed by <strong>John Carlo Marasigan</strong></p>
     </footer>
@@ -69,7 +70,7 @@
         for (var j = 0; j < rallyTracks.length; j++) {
             trackGallery.innerHTML += `
             <div class="col-12 col-md-6 col-lg-4 mb-4">
-                <div class="shadow-lg border rounded p-3 h-100">
+                <div class="shadow-lg border rounded p-3 h-100 glass">
                         <img src="` + rallyTracks[j].img + `" class="track-img">
                     <h4 class="track-description">` + rallyTracks[j].description + `</h4>
                 </div>
