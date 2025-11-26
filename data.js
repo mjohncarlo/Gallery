@@ -20,6 +20,22 @@ var rallyCars = [
         img: "images/evo9.jpg"
     },
     {
+        model: "Toyota Celica",
+        img: "images/celica.jpg"
+    },
+    {
+        model: "Ford Focus",
+        img: "images/focus.jpg"
+    },
+    {
+        model: "Peugeot 206",
+        img: "images/peugeot.jpg"
+    },
+    {
+        model: "Volkswagen Polo",
+        img: "images/polo.jpg"
+    },
+    {
         model: "Subaru WRX 555",
         img: "images/impreza555.jpg"
     },
